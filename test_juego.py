@@ -30,6 +30,9 @@ class TestJuego(unittest.TestCase):
     def test_tijera_vs_tijera(self):
         self.assertEqual(comparar("tijera", "tijera"), 0)
 
+    def test_tijera_vs_tijera(self):
+        self.assertEqual(comparar("tijera", "tijera"), -1)
+
 
 
 if __name__ == '__main__':
